@@ -1,0 +1,21 @@
+.lasu_onb5_img {
+    width: 5px;
+    height: 5px;
+}
+
+.first_main_div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.second_main_div {
+    max-width: 343px;
+}
+
+.p_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px
+}

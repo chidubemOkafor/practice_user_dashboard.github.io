@@ -1,0 +1,95 @@
+.logodiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 161.02px
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inner_email_div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Sora;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.3px;
+}
+
+.form_input_div {
+    display: flex;
+    width: 343px;
+    height: 48px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.inner_email_div :focus-within {
+    border: 1px solid #0294E2;
+    
+}
+
+.email_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    gap: 32px;
+    position: absolute;
+    bottom: 48px;
+}
+
+.email_input {
+    height: 48px;
+    width: 500px;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+}
+
+.button_div {
+    display: flex;
+    width: 343px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #d6e4eb;
+}
+
+.email_input::placeholder {
+    font-family: Sora;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    opacity: 0.5;
+    letter-spacing: -0.3px;
+}
+
+.form_input_div:focus-within input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+  }

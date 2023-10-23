@@ -1,0 +1,29 @@
+.input {
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+Authcode::placeholder {
+    background: #000;
+}
+
+.authcode {
+    display: flex;
+    gap: 8px;
+}
+
+.timer_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.otp_main_div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}

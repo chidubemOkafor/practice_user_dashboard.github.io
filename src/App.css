@@ -1,8 +1,68 @@
-* {
-  font-family: 'Roboto', sans-serif;
-}
 
 #bottom_bar {
   box-shadow: 0px 34px 40px 20px #838383;
 }
 
+.h1, .faint_text, .button_text, .body_text, .placeholder_text, .input_text, .input_bold {
+  color: #FFF;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.3px;
+}
+
+.faint_text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.361px;
+}
+
+.button_text {
+  color: var(--White, #FFF);
+  font-size: 14px;
+}
+
+.body_text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  opacity: 0.5;
+}
+
+.placeholder_text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input_text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.input_bold {
+  font-size: 12px;
+}
+
+.welcome_text {
+  color: #FFF;
+  font-family: Sora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 30px */
+  letter-spacing: -0.3px;
+}
+
+.body_text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  opacity: 0.6;
+  text-align: start;
+}

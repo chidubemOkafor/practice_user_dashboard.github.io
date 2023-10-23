@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { AllObj } from './AllObj';
-import { TabContext } from '../context/TabContext';
+import { TabContext } from '../../context/TabContext';
 
 const All = () => {
   const { tab } = useContext(TabContext);

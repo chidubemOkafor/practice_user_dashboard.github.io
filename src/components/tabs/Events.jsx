@@ -1,7 +1,7 @@
 import React,{useState,useContext} from 'react'
 import All from './All'
 import {TbSquareChevronRight} from 'react-icons/tb'
-import { TabContext } from '../context/TabContext'
+import { TabContext } from '../../context/TabContext'
 
 const Events = () => {
   const listStyle = 'px-3 py-1 cursor-pointer border rounded-md text-[15px] font-semibold hover:bg-blue-100';

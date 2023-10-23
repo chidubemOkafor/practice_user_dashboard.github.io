@@ -1,7 +1,8 @@
 import React from 'react'
-import calender from '../assets/calender.png'
+import calender from '../../assets/calender.png'
 import {IoMdArrowDropdown} from 'react-icons/io'
 import {RiErrorWarningLine} from 'react-icons/ri'
+
 
 const Dashboard = () => {
     const ptitle = "text-blue-300 text-[15px] w-14"

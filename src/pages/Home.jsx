@@ -1,7 +1,8 @@
 import React from 'react'
-import Dashboard from '../components/Dashboard'
-import Navbar from '../components/Navbar'
-import Events from '../components/Events'
+import Dashboard from '../components/dashboard/Dashboard'
+import Navbar from '../components/tabs/Navbar'
+import Events from '../components/tabs/Events'
+
 const Home = () => {
   return (
     <div className=''>
