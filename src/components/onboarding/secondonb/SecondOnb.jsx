@@ -15,14 +15,12 @@ const SecondOnb = () => {
     setTimeout(() => {
       setXTranslation(-175);
       setActive(true);
-    }, 3000);
+    }, 5700);
   });
 
   const handlePageScroll = () => {
     setStep(3);
   };
-
-  const handleLeftSwipe = () => {};
 
   return (
     <div className="slider-container">

@@ -119,5 +119,11 @@
     height: 10vh;
     overflow: scroll;    
 }
+}
+@media (max-height: 800px) {
+    .level_div {
+        height: 20vh;
+        overflow: scroll;    
+    }
 
 }
