@@ -13,7 +13,6 @@ const FourthOnb = () => {
     const onSubmit = (e) => {
         e.preventDefault()
         if(result.length === 6) {
-            alert("submited")
             setStep(5)
         } else {
             alert('invalid otp')
@@ -37,7 +36,7 @@ const FourthOnb = () => {
                         <p className='input_bold'>2:00</p>
                     </div>
                 </div>
-                <div className='active'>
+                <div className='active addrelative_to_active'>
                     <button type='submit'>Verify code</button>
                 </div>
             </form>

@@ -63,6 +63,8 @@
     color: var(--White, #FFF);
     font-size: 14px;
     letter-spacing: -0.3px;
+    position: absolute;
+    bottom: 35px;
 }
 
 .active {
@@ -72,4 +74,22 @@
 
 .first {
     text-align: center;
+}
+
+.second_logo_container {
+    position: absolute;
+    top: 76px;
+}
+
+@media (max-height: 700px) {
+    .second_logo_container {
+        position: absolute;
+        top: 20px;
+    }
+
+    .schedule_image {
+        margin-top: 8rem;
+        position: absolute;
+    }
+
 }

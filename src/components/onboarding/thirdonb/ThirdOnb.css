@@ -54,7 +54,7 @@
     color: #FFF;
     gap: 32px;
     position: absolute;
-    bottom: 48px;
+    bottom: 20px;
 }
 
 .email_input {
@@ -92,4 +92,9 @@
 
 input:focus {
     outline: none;
-  }
+}
+
+.addrelative_to_active {
+    margin-top: 32px;
+    position: relative;
+}

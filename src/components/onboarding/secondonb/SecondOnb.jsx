@@ -28,8 +28,8 @@ const SecondOnb = () => {
     }
   return (
     <div className='first_main'>
-        <div>
-        <Lasulogo/>
+        <div  className='second_logo_container'>    
+                <Lasulogo/>
         <div className='eclipse_container'>
             <div className='eclipse'></div>
             <div className='eclipse'></div>

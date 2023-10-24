@@ -30,7 +30,7 @@ const ThirdOnb = () => {
                         <input type='text' placeholder='This is placeholder text' className='email_input' required></input>
                     </div>
                 </div>
-                <div className='active'>
+                <div className='active addrelative_to_active'>
                     <button  type='submit'>Request Code</button>
                 </div>
             </form>

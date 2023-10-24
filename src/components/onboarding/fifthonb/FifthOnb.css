@@ -6,16 +6,118 @@
 .first_main_div {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
 }
 
 .second_main_div {
     max-width: 343px;
+    position: absolute;
+    top: 91px;
+}
+
+.select_level_container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .p_div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px
+    gap: 9px
+}
+
+.dropdown_div {
+    display: flex;
+    width: 343px;
+    height: 48px;
+    padding: 0px 16px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.10);
+    cursor: pointer
+}
+
+.dropdown_div:focus {
+    border: 1px solid #0294E2;
+}
+
+.dropdown_div:focus .dropdown_div_text {
+    opacity: 100;
+  }
+
+.dropdown_div_text, .dropdown_div_text_white {
+    font-family: Sora;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    opacity: 0.5;
+    letter-spacing: -0.3px;
+}
+
+.dropdown_div_text_white {
+    opacity: 100;
+    padding-bottom: 16px;
+}
+
+.levels {
+    padding: 16px 8px 16px 8px;
+    color: #FFF;
+    font-family: Sora;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 192.308% */
+    letter-spacing: -0.3px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.levels:hover {
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.showlevel {
+    border-radius: 8px;
+    border: 0.5px solid var(--Gradient-Stroke, #B2D8F7);
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: #FFF;
+    text-align: center;
+    font-family: Sora;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+.showlevel_div{
+    margin-top: 15px;
+    display: flex;
+    gap: 8px
+}
+
+@media (max-height: 750px) {
+    .level_div {
+      height: 20vh;
+      overflow: scroll;    }
+  }
+
+@media (max-height: 600px) {
+.level_div {
+    height: 10vh;
+    overflow: scroll;    
+}
+
 }
